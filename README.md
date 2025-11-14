@@ -131,3 +131,10 @@ FROM orders o
 JOIN customers c ON o.customer_id = c.customer_id
 JOIN order_items oi ON o.order_id = oi.order_id
 JOIN products p ON oi.product_id = p.product_id;
+Output Preview (SQL Join Result)
+
+Below is the sample output retrieved by executing the SQL JOIN query:
+<img width="1920" height="1080" alt="Screenshot (291)" src="https://github.com/user-attachments/assets/59e76d4c-6906-4e53-8c91-2b26a6c48a71" />
+
+
+
